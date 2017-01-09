@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+<title>Portfolio</title>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="default.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<br>
+	<!-- Navigation bar -->
+	<nav class="navbar navbar-inverse navbar-custom navbar-fixed-top">
+		<div class="container-fluid">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+      		</button>
+			
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#top">
+					<img class="img_logo_size" alt="Brand" src="https://maxcdn.icons8.com/Share/icon/Logos//discord_logo1600.png">
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="#about-me">About</a>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact-me">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		</div>
+		</div>
+		</form>
+		</div>
+	</nav>
+
+	<!-- Section 0 - Welcome -->
+		<div id="top" class="jumbotron">
+			Welcome to Portfolio
+		</div>
+	</div>
+
+	<!-- Section 1 - About -->
+	<div id="about-me" class="container-fluid">
+		<div class="well">
+			<h1 class="page-header">
+				About
+				<img src="http://cdn.litlepups.net/2016/04/12/medium_pug-dog-hd-wallpapers-free-download-all-about-dogs.jpg" alt="user-avatar" class="img_avatar_size">
+			</h1>
+			<p align="justify"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+		</div>
+	</div>
+
+	<!-- Section 2 - Portfolio -->
+	<div id="portfolio" class="container-fluid">
+		<div class="well well-sm">
+			<h1 class="page-header">Portfolio</h1>
+			<p> Some of work</p>
+			
+			<div class="img-fluid img-thumbnail">
+				<img placeholder="computer" class="img_default_size" src="http://keywordcompetitor.com/wp-content/uploads/2016/11/wordpress-themes-gold-coast-feature.jpg">
+			</div>
+			<div class="img-fluid img-thumbnail">
+				<img placeholder="raspberry_boy" class="img_default_size" src="http://icdn9.digitaltrends.com/image/game-boy-zero-660x440.png">
+			</div>
+		</div>
+	</div>
+
+	<!-- Section 3 - Contact -->
+	<div id="contact-me" class="container-fluid">
+		<div class="well well-sm">
+			<h1 class="page-header">Contact</h1>
+			<p> </p>
+			<!-- Contact form -->
+			<form>
+				<div class="form-group">
+					<label for="input_name">Name</label>
+					<input type="text" class="form-control" id="input_name" placeholder="Name">
+				</div>
+				<div class="form-group">
+					<label for="input_email">Email address</label>
+					<input type="email" class="form-control" id="input_email" placeholder="Email">
+				</div>
+				<div class="form-group">
+					<label for="subject_list">Subject</label>
+					<select class="form-control" id="subject_list">
+						<option>Suggestion</option>
+						<option>Bug report</option>
+						<option>Others</option>
+					</select>
+				</div>
+				
+				<textarea placeholder="Message" style="width:100%" class="form-control" rows="4"></textarea><br> <br>
+				<button onclick="getElementById('date_time').innerHTML = Date()" type="submit" class="btn btn-primary">Submit</button>
+			</form>
+			
+		</div>
+	</div>
+
+	<!-- -->
+
+	<!-- Interaction with social media -->
+	<div class="container">	
+		<div id="social_media_icons" class="row">
+			<a href="https://www.facebook.com/jvictorssouza" target="_blank" class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+			<a href="https://github.com/victorssouza" target="_blank" class="btn btn-social-icon btn-github"><i class="fa fa-github"></i></a>
+			<a href="https://www.linkedin.com/in/jvictorssouza?trk=nav_responsive_tab_profile_pic" target="_blank" class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
+		</div>
+	</div>
+</body>
+</html>
